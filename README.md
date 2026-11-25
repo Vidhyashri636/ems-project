@@ -1,12 +1,21 @@
-# React + Vite
+# Employee Management System (EMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based CRUD application built with React.js for managing employee records. Authenticated users can add, view, update, and delete employee details, with Firebase for login/session handling, Axios with JSON Server for data, Tailwind CSS for styling, and export options for Excel and PDF.
 
-Currently, two official plugins are available:
+## Features
+*Authentication:* Login, registration, password reset, and protected routes via Firebase.
+*Employee CRUD:* Add, view, edit, and delete employee records.
+*Data Export:* Export employee data to Excel and PDF.
+*Responsive UI:* Styled with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+React.js (Vite), Tailwind CSS
+Firebase Auth
+Axios, JSON Server (src/json/db.json)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+Install dependencies:
+   ```bash
+   npm install
+npx json-server --watch src/json/db.json --port 3000
+npm run dev
