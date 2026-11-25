@@ -18,9 +18,9 @@ Install dependencies:
    ```bash
    npm install
 
-Start JSON Server:
+1. Start JSON Server:
 npx json-server --watch src/json/db.json --port 3000
 
-Stsrt the React app:
+2. Start the React app:
 npm run dev
 
