@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "empId": "104",
+      "empName": "Sanjeev",
+      "empDesg": "Associate Engineer",
+      "empDept": "developer",
+      "empSalary": "45000",
+      "id": "ab35"
+    },
+    {
+      "id": "6beb",
+      "empId": "101",
+      "empName": "vidhyashri",
+      "empDesg": "web developer",
+      "empDept": "developer",
+      "empSalary": "50000"
+    },
+    {
+      "empId": "102",
+      "empName": "shriradha",
+      "empDesg": "software developer",
+      "empDept": "developer",
+      "empSalary": "60000",
+      "id": "3a47"
+    },
+    {
+      "empId": "103",
+      "empName": "Jhon",
+      "empDesg": "software developer",
+      "empDept": "developer",
+      "empSalary": "50000",
+      "id": "d27a"
+    },
+    {
+      "id": "851e",
+      "empId": "105",
+      "empName": "sagar",
+      "empDesg": " junior software developer",
+      "empDept": "developer",
+      "empSalary": "40000"
+    },
+    {
+      "id": "028b",
+      "empId": "106",
+      "empName": "keerti",
+      "empDesg": "Full stack development",
+      "empDept": "developer",
+      "empSalary": "50000"
+    },
+    {
+      "id": "e9c8",
+      "empId": "107",
+      "empName": "Apsana",
+      "empDesg": "DBMS",
+      "empDept": "DB Management",
+      "empSalary": "60000"
+    },
+    {
+      "id": "b4b8",
+      "empId": "108",
+      "empName": "Nikhil",
+      "empDesg": "CAD software Engineering",
+      "empDept": "Design and Analysis",
+      "empSalary": "45000"
+    },
+    {
+      "id": "1890",
+      "empId": "110",
+      "empName": "tanushri",
+      "empDesg": "web developer",
+      "empDept": "developer",
+      "empSalary": "45000"
+    },
+    {
+      "empId": "100",
+      "empName": "pushpa",
+      "empDesg": "testing",
+      "empDept": "IT",
+      "empSalary": "30000",
+      "id": "7183"
+    }
+  ]
+}
