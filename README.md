@@ -17,5 +17,10 @@ Axios, JSON Server (src/json/db.json)
 Install dependencies:
    ```bash
    npm install
+
+Start JSON Server:
 npx json-server --watch src/json/db.json --port 3000
+
+Stsrt the React app:
 npm run dev
+
